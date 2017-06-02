@@ -8,6 +8,11 @@ For this project , I was referred by [Professor Liang Zhao](http://ist.gmu.edu/p
 ## Background 
 I worked on data provided by [Medstar Health Research Institute]( https://www.medstarhealth.org/mhri/#q={} ) . The data consisted of a list of surgeries performed in the DC-VA-MD region, and the doctors involved in each surgery. For confidentiality reasons , I am not allowed to publish the data to a public platform. The objective of the job was to calculate the dyadic interactions between each doctor , which could further be refined by different parameters like time periods , type of surgery , roles etc . 
 
+## Objectives 
+- The purpose of this project is to identify combinations of doctors who work well ( in this case , work well means the ability to perform a surgery in the least amount of time)  which can directly impact hospital resource allocation in the form of capital and human resources  .
+- The project also aims to identify if there is any correlation between different attributes of the doctor ( age , qualifications , type of patient treated etc ) and surgery time . 
+- Lastly , it also aims to analyze the frequency of interactions between doctors over time. 
+
 ## Details 
 - Time taken : ~ 2 months . 
 - Languages and tools used : Java , Microsoft Excel , VBA , Gephi , Tableau . 
