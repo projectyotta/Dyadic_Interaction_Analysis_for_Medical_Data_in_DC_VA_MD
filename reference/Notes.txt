@@ -1,0 +1,163 @@
+1. Removed unnecessary variables in first step of cleaning . Things like Person Name - Full , Sex , Religion etc . Essentially , ietms we will not be using for the analysis . 
+
+In 2013 merged.xlsx , deleted : 
+MRN- Organization 
+Case Number	
+Institution	
+Encounter Identifier	
+Person Name- Full	
+Encounter Type	
+Actual Procedure	
+ASA Class	
+Deceased Date & Time
+LOS (Actual)
+Admit Date & Time	
+Discharge Date & Time
+Minutes from Scheduled Start	
+Surgery Minutes	
+Minutes in Room	
+Readmit 30 days (Future)
+Sex	
+AgeYearsVisit	
+BirthDate	
+EthnicGroup	
+Language	
+Race	
+Religion
+
+In 2014 merged.xlsx , deleted : 
+ed
+CaseNumber	
+Institution	
+EncounterIdentifier	
+PersonNameFull	
+EncounterType	
+ActualProcedure	
+ASAClass	
+DeceasedDateTime	
+AdmitDateTime_min	
+DischargeDateTime_min	
+LOSActual_min
+MinutesfromScheduledStart_min	
+SurgeryMinutes_min	
+MinutesinRoom_min	
+Readmit30daysFuture_min
+Sex	
+AgeYearsVisit	
+BirthDate	
+EthnicGroup	
+Language	
+Race	
+Religion
+
+In 2015 merged.xlsx , deleted : 
+MRN- Organization	
+Person Name- Full	
+Case Number	
+Institution	
+Encounter Identifier	
+Encounter Type	
+Actual Procedure	
+ASA Class	
+Deceased Date & Time	
+Admit Date & Time	
+Discharge Date & Time	
+LOS (Actual) 
+Minutes from Scheduled Start	
+Surgery Minutes	
+Minutes in Room	
+Readmit 30 days (Future)
+Sex	
+AgeYearsVisit	
+BirthDate	
+EthnicGroup	
+Language	
+Race	
+Religion
+
+In 2016 merged.xlsx , deleted : 
+MRN- Organization	
+Person Name- Full	
+Case Number	
+Institution	
+Encounter Identifier	
+Encounter Type	
+Actual Procedure	
+ASA Class	
+Deceased Date & Time	
+Admit Date & Time	
+Discharge Date & Time	
+LOS (Actual) 
+Minutes from Scheduled Start	
+Surgery Minutes	
+Minutes in Room	
+Sex	
+AgeYearsVisit	
+BirthDate	
+EthnicGroup	
+Language	
+Race	
+Religion
+
+2. In each of the excel files , deleted the unnecessary roles . Have also mentioned the roles that I am keeping . 
+Also have a query regarding a role ( whether to keep it or not ... waiting for Prof. Kaplan to reply so I can proceed ). 
+To view a list of all the roles that have been deleted , please refer to reference > Keeping_Deleting_maybe.xlsx 
+
+3. From each role in each file ( 2013 ...2016 ) , copied the doctor names into a single excel file . Removed the empty rows . Deleted the duplicate items . 
+Used Excel Macros to do this . Code has been mentioned below : 
+
+# sample code to delete empty rows in each role for each year : 
+
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Selection.ClearContents
+    Columns("A:A").Select
+    Selection.SpecialCells(xlCellTypeBlanks).Select
+    Selection.EntireRow.Delete
+    Range("C5").Select
+End Sub
+
+
+# sample code to delete duplicate values : 
+
+Sub Macro2()
+'
+' Macro2 Macro
+'
+
+'
+    Range(Selection, Selection.End(xlDown)).Select
+    ActiveSheet.Range("$A$1:$A$536").RemoveDuplicates Columns:=1, Header:=xlNo
+    Range("B513").Select
+End Sub
+
+4.  Arranged entries by date by using Filter - Sort oldest to lowest function in excel .
+
+5. Identified potential red flags in the doctor name list and marked them. What to do with those to be decided after talking to Prof Kaplan .
+
+ 
+ 
+
+Questions 
+
+1. What to do about " 999938 -OTHER-,, "  and " Unknown " 
+2. Please check reference > Keeping_Deleting_maybe.xlsx and mention what to do about the values in yellow . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
