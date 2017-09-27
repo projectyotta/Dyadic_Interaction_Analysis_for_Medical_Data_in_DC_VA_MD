@@ -46,7 +46,9 @@ This included work that I did but was deemed not necessary / no further progress
 -	I also suggested to Professor Kaplan that we could visualize the interaction data better using Gephi and Tableau. I presented a sample output of the same and made full scale interactions for my own use ( he didn’t really ask for it nor did I show it to him , but you know , for teh lulz xD ). 
 
 ## Notes 
-Unfortunately , collaboration is not possible for this project. I however would welcome your suggestions ! Shoot me a mail at sdonthin@gmu.edu :) . 
+Unfortunately , collaboration is not possible for this project. I however would welcome your suggestions ! Shoot me a mail at sdonthin@gmu.edu :) 
+
+k. 
 
 
 
