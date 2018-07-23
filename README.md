@@ -43,13 +43,9 @@ I also explained how the code worked and how to execute it to Professor Kaplan a
 ## Other Tasks 
 This included work that I did but was deemed not necessary / no further progress requested. 
 -	I wanted to represent each doctor by a numeric entry instead of a name , and wrote a simple excel macro which did the same . I presented the idea to Professor Kaplan , and he told me that he would prefer it if the names were included , instead of numbers. The basic idea for doing this was that it would be easier for the program to execute if it was comparing numbers instead of text strings. 
--	I also suggested to Professor Kaplan that we could visualize the interaction data better using Gephi and Tableau. I presented a sample output of the same and made full scale interactions for my own use ( he didn’t really ask for it nor did I show it to him , but you know , for teh lulz xD ). 
+-	I also suggested to Professor Kaplan that we could visualize the interaction data better using Gephi and Tableau. I presented a sample output of the same and made full scale interactions for my own use.  
 
 ## Notes 
 Unfortunately , collaboration is not possible for this project. I however would welcome your suggestions ! Shoot me a mail at sdonthin@gmu.edu :) 
 
-k. 
-
-
-
-
+The output of this project has been published here : https://www.researchgate.net/publication/320527883_Dissecting_Team_Familiarity_The_Impact_of_Dyad_Familiarity_on_Turnover_Time_and_Length_of_Surgery 
