@@ -46,6 +46,6 @@ This included work that I did but was deemed not necessary / no further progress
 -	I also suggested to Professor Kaplan that we could visualize the interaction data better using Gephi and Tableau. I presented a sample output of the same and made full scale interactions for my own use.  
 
 ## Notes 
-Unfortunately , collaboration is not possible for this project. I however would welcome your suggestions ! Shoot me a mail at sdonthin@gmu.edu :) 
+Unfortunately , collaboration is not possible for this project, because I do not own any of the data. I however would welcome your suggestions ! 
 
 The output of this project has been published here : https://www.researchgate.net/publication/320527883_Dissecting_Team_Familiarity_The_Impact_of_Dyad_Familiarity_on_Turnover_Time_and_Length_of_Surgery 
